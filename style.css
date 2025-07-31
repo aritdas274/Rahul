@@ -185,8 +185,8 @@ body {
 }
 
 .categoryName {
-    transform: translateY(400%);
-}
+     transform: translateY(400%);
+    font-size: 15px;
 
 #gif {
     width: 100vw;
