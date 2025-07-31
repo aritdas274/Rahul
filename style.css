@@ -32,7 +32,7 @@ body {
     aspect-ratio: 3014/855;
     border-radius: 10px;
     position: fixed;
-    top: 10vw;
+    top: 2vh;
     transform: translateX(50%);
     display: flex;
     align-items: center;
