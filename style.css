@@ -270,6 +270,8 @@ body {
 
 #latest .product .model {
     height: 100%;
+    scale: 1.5;
+    transform: translateY(20%);
      aspect-ratio: 1920/1080;
      filter: saturate(200%);
 }
