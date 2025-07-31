@@ -50,6 +50,7 @@ body {
     aspect-ratio: 16/10;
     /* background-color: red; */
     background-image: url("VHERNA.svg");
+    background-repeat: no-repeat;
     margin-top: 15vh;
     display: flex;
     align-items: center;
