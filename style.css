@@ -31,7 +31,7 @@ body {
     width: 50vw;
     height: auto;
     padding: 2%;
-    border-radius: 10px;
+    border-radius: 6vw;
     position: fixed;
     top: 2vh;
     left: 50%;
@@ -277,3 +277,4 @@ body {
     aspect-ratio: 1920/1080;
     filter: saturate(200%);
 }
+
