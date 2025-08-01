@@ -14,7 +14,7 @@ body {
 }
 
 .headings {
-    font-size: 5vw;
+    font-size: 25px;
     color: #034b30;
     padding-left: 5%;
     font-family: "Bricolage Grotesque", sans-serif;
@@ -29,7 +29,8 @@ body {
 #logo {
     background-color: rgb(255, 255, 255);
     width: 50vw;
-    aspect-ratio: 3014/855;
+    height: auto;
+    padding: 2%;
     border-radius: 10px;
     position: fixed;
     top: 2vh;
@@ -185,8 +186,9 @@ body {
 }
 
 .categoryName {
-     transform: translateY(400%);
+    transform: translateY(400%);
     font-size: 15px;
+}
 
 #gif {
     width: 100vw;
@@ -201,7 +203,7 @@ body {
     /* background-color: red; */
 }
 
-#latest .headings{
+#latest .headings {
     transform: translateY(100%);
     /* background-color: #00C57A; */
 }
@@ -226,11 +228,11 @@ body {
     grid-template-columns: 1fr 1fr;
 }
 
-#product1{
+#product1 {
     margin-left: 5%;
 }
 
-#product2{
+#product2 {
     margin-right: 5%;
 }
 
@@ -270,6 +272,8 @@ body {
 
 #latest .product .model {
     height: 100%;
+    scale: 1.1;
+    transform: translateY(20%);
     aspect-ratio: 1920/1080;
     filter: saturate(200%);
 }
