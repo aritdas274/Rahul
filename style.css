@@ -27,7 +27,10 @@ body {
 }
 
 #logo {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(255 255 255 / 65%);
+    backdrop-filter: blur(10px);
+    border: 1px solid white;
+    z-index: 100;
     width: 50vw;
     height: auto;
     padding: 2%;
@@ -39,7 +42,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.097));
+    filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.2));
 }
 
 #vherna {
@@ -140,7 +143,7 @@ body {
     /* background-color: green; */
     border: 3px solid #00C57A;
     width: 100px;
-    height: 100px;
+    height: 80px;
     aspect-ratio: 1/1;
     border-radius: 100%;
     display: flex;
@@ -186,7 +189,7 @@ body {
 }
 
 .categoryName {
-    transform: translateY(400%);
+    transform: translateY(300%);
     font-size: 15px;
 }
 
@@ -200,6 +203,7 @@ body {
 #latest {
     width: 100vw;
     aspect-ratio: 16/10;
+    transform: translateY(-5%);
     /* background-color: red; */
 }
 
@@ -277,4 +281,3 @@ body {
     aspect-ratio: 1920/1080;
     filter: saturate(200%);
 }
-
