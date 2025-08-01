@@ -14,7 +14,7 @@ body {
 }
 
 .headings {
-    font-size: 25px;
+    font-size: 10vw;
     color: #034b30;
     padding-left: 5%;
     font-family: "Bricolage Grotesque", sans-serif;
@@ -120,7 +120,7 @@ body {
 
 .categoryName {
     transform: translateY(-50%);
-    font-size: 15px;
+    font-size: 30px;
 }
 
 #options {
