@@ -139,9 +139,7 @@ body {
     /* background-color: green; */
     border: 3px solid #00C57A;
     width: 20%;
-    aspect-ratio: 1/1;
-    margin-left: 2.5%;
-    margin-right: 2.5%;
+    margin: 2.5%;
     aspect-ratio: 1/1;
     border-radius: 100%;
     display: flex;
