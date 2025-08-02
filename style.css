@@ -3,7 +3,8 @@ html {
 }
 
 body {
-    background-color: #FEFFF9;
+    /* background-color: #FEFFF9; */
+    background-color: #fefee9;
     margin: 0;
     padding: 0;
     font-family: "Inter", sans-serif;
@@ -17,14 +18,31 @@ body {
     font-size: 5vw;
     color: #034b30;
     padding-left: 5%;
-    font-family: "Bricolage Grotesque", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 700;
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
     font-style: normal;
-    font-variation-settings:
-        "wdth" 100;
     /* <weight>: Use a value from 200 to 800 */
 }
+
+.gradient-mesh {
+      /* width: 100vw; */
+      height: 200vh;
+      aspect-ratio: 1;
+      border-radius: 50%;
+      position: fixed;
+      top: -50%;
+      left: -50%;
+      background: conic-gradient(from 0deg, #b7bbff, #fefee9, #cacff4, #f6d5f8, #ffc8d9);
+      animation: rotate 8s linear infinite;
+      filter: blur(100px);
+      opacity: 0.8;
+      z-index: -1;
+    }
+
+    @keyframes rotate {
+      0%   { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
 
 #logo {
     background-color: rgb(255 255 255 / 65%);
@@ -88,28 +106,24 @@ body {
 /* enter poster links under this */
 
 #poster1 {
-    background-image: url("Frizz_Perfect_Hair_Serum_6_Front.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 #poster2 {
-    background-image: url("download 2.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 #poster3 {
-    background-image: url("images2.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 #poster4 {
-    background-image: url("images.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -153,28 +167,24 @@ body {
 
 #option1 {
     margin-left: 5%;
-    background-image: url("WhatsApp Image 2025-07-31 at 02.00.51_375cca4a.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 #option2 {
-    background-image: url("WhatsApp Image 2025-07-31 at 02.04.01_ffe3a1c6.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 #option3 {
-    background-image: url("WhatsApp Image 2025-07-31 at 02.10.00_605cfdf2.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 #option4 {
-    background-image: url("WhatsApp Image 2025-07-31 at 02.14.12_fffeca87.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -182,7 +192,6 @@ body {
 
 #option5 {
     margin-right: 5%;
-    background-image: url("WhatsApp Image 2025-07-31 at 02.17.13_d66fb73b.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -227,7 +236,7 @@ body {
     height: 70%;
     aspect-ratio: 16/9;
     border-radius: 20px;
-    background-color: #E4E4E4;
+    background-color: #7caba6;
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
@@ -280,4 +289,42 @@ body {
     transform: translateY(20%);
     aspect-ratio: 1920/1080;
     filter: saturate(200%);
+}
+
+#mostOrdered .headings {
+    margin-top: -2vh;
+    margin-bottom: 0vh;
+}
+
+#orderContainer {
+    width: 100vw;
+    height: 25vh;
+    /* background-color: #E4E4E4; */
+    background-color: #3d7771;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    border-radius: 10px;
+    display: flex;
+    overflow-x: auto;
+    white-space: nowrap;
+    gap: 5vw;
+}
+
+.productContainer {
+    height: 100%;
+    aspect-ratio: 3/4;
+    border: 1px solid rgb(21, 21, 21);
+    background-color: #a1eecf;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.productImg {
+    width: 80%;
+    aspect-ratio: 1/1;
+    background-color: blue;
+    border-radius: 10px;
 }
