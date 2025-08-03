@@ -236,7 +236,7 @@ body {
     height: 70%;
     aspect-ratio: 16/9;
     border-radius: 20px;
-    background-color: #7caba6;
+    background-color: white;
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
@@ -328,3 +328,4 @@ body {
     background-color: blue;
     border-radius: 10px;
 }
+
