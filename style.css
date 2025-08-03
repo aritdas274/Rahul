@@ -101,33 +101,12 @@ body {
     display: inline-block;
     border-radius: 30px;
     border: 1px solid black;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 /* enter poster links under this */
-
-#poster1 {
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-#poster2 {
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-#poster3 {
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-#poster4 {
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
 
 #categoryDiv {
     /* background-color: greenyellow; */
@@ -330,5 +309,6 @@ body {
     background-color: blue;
     border-radius: 10px;
 }
+
 
 
