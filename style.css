@@ -89,6 +89,7 @@ body {
     scroll-behavior: smooth;
     /* background-color: aqua; */
     overflow-x: auto;
+    scroll-snap-type: x mandatory;
     white-space: nowrap;
     display: flex;
     gap: 10vw;
@@ -102,6 +103,7 @@ body {
     border-radius: 30px;
     border: 1px solid black;
     background-size: cover;
+    scroll-snap-align: center;
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -309,6 +311,7 @@ body {
     background-color: blue;
     border-radius: 10px;
 }
+
 
 
 
