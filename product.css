@@ -259,3 +259,25 @@ body {
     text-align: center;
     color: #fffbfe;
 }
+
+#minOrder {
+    position: fixed;
+    top: 30vh;
+    right: -15vw;
+    border-radius: 100px;
+    border: 1px solid rgb(243, 243, 243);
+    overflow: hidden;
+    padding: 6px;
+    white-space: nowrap;
+    background-color: rgba(190, 190, 190, 0.512);
+    backdrop-filter: blur(10px);
+    display: flex;
+    transform: rotate(-90deg);
+}
+
+#minOrder p{
+    background-color: white;
+    margin: 2px;
+    padding: 6px;
+    border-radius: 100px;
+}
